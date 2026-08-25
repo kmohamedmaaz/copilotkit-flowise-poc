@@ -1,0 +1,27 @@
+{
+  "name": "copilotkit-flowise-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "mock-flowise": "node scripts/mock-flowise.js",
+    "postinstall": "node scripts/patch-copilotkit.mjs"
+  },
+  "dependencies": {
+    "@ag-ui/client": "^0.0.58",
+    "@copilotkit/react-core": "^1.68.1",
+    "@copilotkit/react-ui": "^1.68.1",
+    "@copilotkit/runtime": "^1.68.1",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.0"
+  }
+}
